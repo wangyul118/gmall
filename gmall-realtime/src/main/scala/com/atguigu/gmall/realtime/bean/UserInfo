@@ -1,0 +1,12 @@
+package com.atguigu.gmall.realtime.bean
+
+/**
+ * @author: Wanger
+ * @time: 2020/11/17 11:16
+ * @desc:
+ */
+case class UserInfo(id: String,
+                    login_name: String,
+                    user_level: String,
+                    birthday: String,
+                    gender: String)
